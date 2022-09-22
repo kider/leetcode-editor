@@ -1,5 +1,5 @@
 # leetcode-editor
-基于**https://github.com/shuzijun/leetcode-editor** 改造，感谢作者的开源，此改造版本适用于旧版本(2018+)IDEA
+基于**https://github.com/shuzijun/leetcode-editor** 改造，感谢原作者，此改造版本适用于旧版本(2018+)IDEA
 
 改动1：
 增加**PackagePath**配置，用来单独配置生成代码文件的包路径。
@@ -35,6 +35,6 @@ public class LeetCode$!{question.frontendQuestionId}{
 	
 }
 
-效果如图：
+生成文件效果如图：
 
 ![image](https://user-images.githubusercontent.com/10611034/191785351-383edd30-6df0-487d-abf9-43f0971e806d.png)
