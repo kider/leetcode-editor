@@ -17,7 +17,8 @@
 ![1663859010685](https://user-images.githubusercontent.com/10611034/191784683-1bbca32c-e0ca-4052-9e2f-2e69218ef1a4.jpg)
 
 codeTemplet配置示例：
-**```java
+
+
 ${question.content}
 
 package com.leetcode;
@@ -32,7 +33,7 @@ public class LeetCode$!{question.frontendQuestionId}{
 	
 	${question.code}
 	
-} **
+}
 
 效果如图：
 
