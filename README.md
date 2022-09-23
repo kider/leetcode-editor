@@ -8,17 +8,17 @@
 在**TempFilePath**配置路径后增加默认的**data**文件夹，用来存放除代码文件以外的其他临时文件。
 
 改动3：
-菜单里的全部清除不在删除PackagePath文件夹下的代码文件，只删除TempFilePath下data文件夹里的临时文件。
+菜单里的全部清除不在删除**PackagePath**文件夹下的代码文件，只删除**TempFilePath下data**文件夹里的临时文件。
 
 改动4：
-选中单题清除，则清除此题的代码文件。
+选择单题清除，清除此题的代码文件。
 
 配置如图：
 ![1663859010685](https://user-images.githubusercontent.com/10611034/191784683-1bbca32c-e0ca-4052-9e2f-2e69218ef1a4.jpg)
 
 codeTemplet配置示例：
 
-
+```java
 ${question.content}
 
 package com.leetcode;
@@ -34,6 +34,7 @@ public class LeetCode$!{question.frontendQuestionId}{
 	${question.code}
 	
 }
+```
 
 生成文件效果如图：
 
