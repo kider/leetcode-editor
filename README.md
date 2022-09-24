@@ -1,6 +1,7 @@
 # leetcode-editor
 
 基于**https://github.com/shuzijun/leetcode-editor** v6.11版本改造，适用于IDEA旧版本。
+
 下载地址：**https://github.com/kider/leetcode-editor/releases/tag/v6.11**
 
 改动1：
